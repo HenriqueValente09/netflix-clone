@@ -20,7 +20,7 @@ export default {
             {
                 slug: 'Trending',
                 title: 'Trending',
-                items: await basicFetch(`/discover/tv?with_network=213&api_key=${API_KEY}`)
+                items: await basicFetch(`/trending/all/week?&api_key=${API_KEY}`)
             },
             {
                 slug: 'Toprated',
